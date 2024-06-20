@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Time Server", "Time Server\Time Server.csproj", "{03C3D8FC-E1E0-4D50-A6DD-A05C95B4AE69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Time Client", "Time Client\Time Client.csproj", "{F03F5723-D355-4444-996E-A67EEFBC7CC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03C3D8FC-E1E0-4D50-A6DD-A05C95B4AE69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C3D8FC-E1E0-4D50-A6DD-A05C95B4AE69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C3D8FC-E1E0-4D50-A6DD-A05C95B4AE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C3D8FC-E1E0-4D50-A6DD-A05C95B4AE69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03F5723-D355-4444-996E-A67EEFBC7CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03F5723-D355-4444-996E-A67EEFBC7CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03F5723-D355-4444-996E-A67EEFBC7CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03F5723-D355-4444-996E-A67EEFBC7CC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8C9569C-2559-486F-A3C7-6A42A465D2EB}
+	EndGlobalSection
+EndGlobal
