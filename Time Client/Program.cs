@@ -41,7 +41,8 @@ namespace Time_CLient
                 try
                 {
                     attempts++;
-                    clientSocket.Connect(IPAddress.Parse("112.204.108.171"), 6969);
+                    clientSocket.Connect(IPAddress.Parse("112.204.108.171"), 16969);
+                    //clientSocket.Connect(IPAddress.Parse("192.168.56.1"), 6969);
                 }
                 catch (SocketException se)
                 {

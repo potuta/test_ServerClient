@@ -1,5 +1,4 @@
-﻿using System.Data;
-using System.Net;
+﻿using System.Net;
 using System.Net.Sockets;
 using System.Text;
 
@@ -21,7 +20,7 @@ namespace Time_Server
         private static void SetupServer()
         {
             Console.WriteLine("Setting up server...");
-            serverSocket.Bind(new IPEndPoint(IPAddress.Any, 6969));
+            serverSocket.Bind(new IPEndPoint(IPAddress.Any, 16969));
             serverSocket.Listen(5);
             serverSocket.BeginAccept(new AsyncCallback(AcceptCallback), null);
         }
