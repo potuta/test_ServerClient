@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Time Client.exe" version="1.0.0.1" publicKeyToken="f19b8e4e7545c911" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17368">
+      <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dx3/p55UaufJiS8q5mUyezLbuemOQRuSBfvpiz9zuPM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Time Client.deps.json" size="425">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3lHMI4dMe2QcdELrhf8aX68rgEGjr85PzBAVL/auc+g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Time Client.dll" size="6616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rt8L2SSAaslLpBW2sNVUare0Pn9uHYAoFQWCKOkhGH4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Time Client.exe" size="143832">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+/xO8hzx2kprxGR253J5Kl19i2F4/uOUMfKfnLRslkk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Time Client.runtimeconfig.json" size="340">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KDKc8I9lBec4BrF1WLGHwC8MHFFv5H6/t6AT0IKqowY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-MQAI63D\cyy" issuerKeyHash="9d83cbab51c56915fcfa8e4f89ea0397196af17e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>fBnCTjCSLj9PFBRaaUBy4mXH7Py9+MtRxsgm2r3vdRs=</DigestValue></Reference></SignedInfo><SignatureValue>Gx8aHamwAyp+dkm79tgUaeKhifR0O+n3ivYtARtaX4myAIF/8C3/H9oj8xLPcIY5Ksg+1bfLIrbgQ2kygaHGfD9DL0QxvikY2VF3glFfkdmUTyz2FAvD03872BeIgF3VUl79uhy1KIw3qn/5k9NlEJy6uQxpPGsXMCj4RDu7LpI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>894G+lfyXZVTyHagAWjDK5ssBcNWeFkmkfB6bw2P9XAJeo9brugu90BDk+cv/TgwaOmK/Ha1vygIInuzQG8vtfnuhwXW25FWHKgsa6Gk2dSldDVL/PLFLDGYFCilTGUFw57+G8R8gcHWOmiK2oEGt63dBq6e1cwR70y0a6FbRQ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1b75efbdda26c8c651cbf8bdfcecc765e27240695a14144f3f2e92304ec2197c" Description="" Url=""><as:assemblyIdentity name="Time Client.exe" version="1.0.0.1" publicKeyToken="f19b8e4e7545c911" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-MQAI63D\cyy</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3s3PXlF6sTZ6gD6udWg4O7jkh+3TROdUOgexWHcH5HQ=</DigestValue></Reference></SignedInfo><SignatureValue>RNu0QLBSZDLzF2CIQ8sUP4H7pxWe/qsAHAcQf1SXN7eUAF0CoA+CM97u+86N79LvRKBggFrFhjC6q1K7qyjpegFfoK5VM9UlKKn9oRn3OSzsBDE/wqZgO02dLmEZEjRMVKGmwPtVPUHQikbKAS1qqHWc7TZQxLCwFv6w6STJ5qc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>894G+lfyXZVTyHagAWjDK5ssBcNWeFkmkfB6bw2P9XAJeo9brugu90BDk+cv/TgwaOmK/Ha1vygIInuzQG8vtfnuhwXW25FWHKgsa6Gk2dSldDVL/PLFLDGYFCilTGUFw57+G8R8gcHWOmiK2oEGt63dBq6e1cwR70y0a6FbRQ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQdEnUDRn3vIpJDaj9G4OafjANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYARABFAFMASwBUAE8AUAAtAE0AUQBBAEkANgAzAEQAXABjAHkAeTAeFw0yNDA0MTQxMzE2MDBaFw0yNTA0MTQxOTE2MDBaMDExLzAtBgNVBAMeJgBEAEUAUwBLAFQATwBQAC0ATQBRAEEASQA2ADMARABcAGMAeQB5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDz3gb6V/JdlVPIdqABaMMrmywFw1Z4WSaR8HpvDY/1cAl6j1uu6C73QEOT5y/9ODBo6Yr8drW/KAgie7NAby+1+e6HBdbbkVYcqCxroaTZ1KV0NUv88sUsMZgUKKVMZQXDnv4bxHyBwdY6aIragQa3rd0Grp7VzBHvTLRroVtFDQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBANZJsweUjdxE/NoDUWPFoeo26mFqHWQAAgU8gC7EF2t7tfisoTd6D1eUtZ3WGQNwslUSqMmO2Ks+SubtUvJDU4iUNfQW7DnCkJfhHKwv1b5BQ6424MBGvHaTA7u+N5DSgpCyUkvD4SqECzE4AinH3ooHJ55Td0t3tUvbNkS4D1P9</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
